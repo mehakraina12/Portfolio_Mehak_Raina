@@ -52,7 +52,7 @@ const Mehak = () => {
                                 variants={container(1)}
                                 initial="hidden"
                                 animate="visible"
-                                className="mt-0"
+                                className="mt-0 mb-6"
                             >
                                 <a
                                     href={resume}
