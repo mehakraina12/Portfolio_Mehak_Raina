@@ -39,6 +39,7 @@ const projects = [
       'Framer Motion: For animations',
     ],
     imgSrc: project3,
+    githubLink: 'https://github.com/mehakraina12/Portfolio_Mehak_Raina.git'
   },
   // {
   //   id: 3,

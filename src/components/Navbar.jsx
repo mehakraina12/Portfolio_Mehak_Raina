@@ -8,7 +8,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) { // Adjust this value based on when you want the navbar to become fixed
+      if (window.scrollY > 50) {
         setIsFixed(true);
       } else {
         setIsFixed(false);
@@ -31,8 +31,8 @@ const Navbar = () => {
 
   return (
     <nav className={`transition-all duration-300 fixed top-0 left-0 w-full border-b border-neutral-900 bg-black pb-4 lg:mb-0 flex flex-col lg:flex-row items-center justify-between py-6 z-50 ${isFixed ? 'fixed-nav' : ''}`}>
-      <div className="flex flex-shrink-0 items-center ml-8">
-        <a href="/" className="text-3xl font-bold text-white ml-10" style={{ fontFamily: 'Poppins, sans-serif' }}>
+      <div className="flex flex-shrink-0 items-center justify-center lg:justify-start w-full lg:w-auto px-8 lg:px-16">
+        <a href="/" className="text-3xl font-bold text-white" style={{ fontFamily: 'Poppins, sans-serif' }}>
           Mehak Raina
         </a>
       </div>
@@ -138,7 +138,7 @@ const Navbar = () => {
           <span className={`absolute left-0 bottom-0 w-full h-[2px] bg-yellow-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ${activeLink === 'contact' ? 'scale-x-100' : ''}`}></span>
         </a>
         <a 
-          href="https://drive.google.com/file/d/1_TuZfEAU5L2umKbJVudR_5W71qiF1zke/view?usp=sharing" 
+          href="https://drive.google.com/file/d/1qdYP1Mrxf_9EaeYT8tCnRw6XNhWuybiQ/view?usp=drive_link" 
           className={`relative group mr-20 ${activeLink === 'resume' ? 'text-yellow-500' : 'text-white'}`} 
           onClick={() => handleLinkClick('resume')}
           target="_blank" 
