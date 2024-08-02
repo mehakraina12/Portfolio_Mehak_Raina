@@ -28,12 +28,6 @@ const Contacts = () => {
             >
               <FaLinkedin />
             </a>
-            <a href="https://www.instagram.com/yourprofile" 
-               className="text-4xl text-gray-300 hover:text-pink-500" 
-               aria-label="Instagram"
-            >
-              <FaInstagram />
-            </a>
             <a href="https://github.com/yourprofile" 
                className="text-4xl text-gray-300 hover:text-gray-500" 
                aria-label="GitHub"
@@ -43,6 +37,10 @@ const Contacts = () => {
           </div>
           <a href="#" className="border-b"></a>
         </div>
+      </div>
+      {/* Copyright Notice */}
+      <div className="text-center py-6 text-gray-400">
+        <p>&copy; {new Date().getFullYear()} Mehak Raina. All rights reserved.</p>
       </div>
     </section>
   )
