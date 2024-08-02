@@ -22,15 +22,19 @@ const Contacts = () => {
         <div className="text-center tracking-tighter">
     
           <div className="flex justify-center space-x-6 my-6">
-            <a href="https://www.linkedin.com/in/yourprofile" 
+            <a href="https://www.linkedin.com/in/mehakraina2002/" 
                className="text-4xl text-gray-300 hover:text-cyan-500" 
                aria-label="LinkedIn"
+               target="_blank" 
+              rel="noopener noreferrer"
             >
               <FaLinkedin />
             </a>
-            <a href="https://github.com/yourprofile" 
+            <a href="https://github.com/mehakraina12" 
                className="text-4xl text-gray-300 hover:text-gray-500" 
                aria-label="GitHub"
+               target="_blank" 
+              rel="noopener noreferrer"
             >
               <FaGithub />
             </a>
