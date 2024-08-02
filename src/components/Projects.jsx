@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import project1 from "../assets/projects/ss.png";
 import project2 from "../assets/projects/project2.png";
+import project3 from "../assets/projects/project3.png";
 
 const projects = [
   {
@@ -37,7 +38,7 @@ const projects = [
       'Tailwind CSS : For utility-first styling',
       'Framer Motion: For animations',
     ],
-    imgSrc: project2,
+    imgSrc: project3,
   },
   // {
   //   id: 3,
