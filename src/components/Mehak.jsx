@@ -2,7 +2,7 @@ import { HERO_CONTENT } from "../constants";
 import photograph from "../assets/profile.jpg";
 import { delay, motion } from "framer-motion";
 import Technologies from "./Technologies";
-import resume from "../assets/resume.pdf"; // Adjust the path as necessary
+import resume from "../assets/resume.pdf";
 
 const container = (delay) => ({
     hidden: { x: -100, opacity: 0 },
@@ -15,7 +15,7 @@ const container = (delay) => ({
 
 const Mehak = () => {
     return (
-        <section id="home" className="pt-20"> {/* Adjust pt-20 to be equal to or greater than navbar height */}
+        <section id="home" className="pt-20">
             <div className="border-b border-neutral-900 pb-4 lg:mb-35">
                 <div className="flex flex-wrap">
                     <div className="w-full lg:w-1/2">

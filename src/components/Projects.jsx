@@ -41,19 +41,6 @@ const projects = [
     imgSrc: project3,
     githubLink: 'https://github.com/mehakraina12/Portfolio_Mehak_Raina.git'
   },
-  // {
-  //   id: 3,
-  //   title: 'Food Ordering Application',
-  //   description: [
-  //     'Created an intuitive and visually appealing user interface using HTML, CSS and JavaScript',
-  //     'MySQL: For managing and storing data.',
-  //     'PHP: For dynamic content generation and database communication.',
-  //     'NodeMCU: For sending messages over the internet via HTTP requests and enabling seamless data transfer.',
-  //   ],
-  //   imgSrc: project2,
-  // },
-
-  // Add more projects as needed
 ];
 
 const Projects = () => {

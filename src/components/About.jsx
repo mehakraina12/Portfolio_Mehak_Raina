@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-// Example skills
 const skills = [
   { skill: "HTML, CSS, JavaScript", percentage: 97 },
   { skill: "SQL", percentage: 95 },
@@ -8,7 +7,6 @@ const skills = [
   { skill: "Django", percentage: 85 },
   { skill: "SpringBoot", percentage: 80 },
   { skill: "NodeJS", percentage: 80 },
-  // Add more skills as needed
 ];
 
 const description = [

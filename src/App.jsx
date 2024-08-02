@@ -1,8 +1,6 @@
 import Mehak from "./components/Mehak"
 import Navbar from "./components/Navbar"
 import About from "./components/About"
-import Technologies from "./components/Technologies"
-import Experience from "./components/Experience"
 import Projects from "./components/Projects"
 import Contacts from "./components/Contacts"
 
@@ -18,9 +16,6 @@ const App = () => {
       <Mehak/>
       <About/>
       <Projects/>
-      
-      
-      {/* <Experience/> */}
       
       <Contacts/>
       </div>
