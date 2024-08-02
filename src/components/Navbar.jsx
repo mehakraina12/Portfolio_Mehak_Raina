@@ -138,7 +138,7 @@ const Navbar = () => {
           <span className={`absolute left-0 bottom-0 w-full h-[2px] bg-yellow-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ${activeLink === 'contact' ? 'scale-x-100' : ''}`}></span>
         </a>
         <a 
-          href="https://drive.google.com/file/d/1qdYP1Mrxf_9EaeYT8tCnRw6XNhWuybiQ/view?usp=drive_link" 
+          href="https://drive.google.com/file/d/1h14KCtJg9oI84n1Rn3ysJ8blQd_ek4lS/view?usp=sharing" 
           className={`relative group mr-20 ${activeLink === 'resume' ? 'text-yellow-500' : 'text-white'}`} 
           onClick={() => handleLinkClick('resume')}
           target="_blank" 
